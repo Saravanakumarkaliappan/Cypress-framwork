@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-03-11T11:14:01.681Z",
+    "end": "2024-03-11T11:14:09.952Z",
+    "duration": 8271,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "319f7af7-1525-4dda-92a1-16846e96b02c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\Tests\\Login.cy.js",
+      "file": "cypress\\e2e\\Tests\\Login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e958fed0-a3b0-414c-b4fa-99a834d1008a",
+          "title": "PetrusConnectLogin",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login",
+              "fullTitle": "PetrusConnectLogin Login",
+              "timedOut": null,
+              "duration": 3840,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginObj.openURl();\nloginObj.enterUserName(_TestData.default.Name);\nloginObj.enterPassword(_TestData.default.Password);\nloginObj.click();",
+              "err": {},
+              "uuid": "739a424a-4615-4207-a1f5-3292ad48ccf2",
+              "parentUUID": "e958fed0-a3b0-414c-b4fa-99a834d1008a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "739a424a-4615-4207-a1f5-3292ad48ccf2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3840,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
