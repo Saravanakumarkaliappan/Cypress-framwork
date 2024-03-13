@@ -8,7 +8,7 @@ module.exports = defineConfig({
    
   },
   env:{
-    URL:'http://54.238.106.146:5557/login'
+    URL:'http://amazone.com/'
   }
 
   
