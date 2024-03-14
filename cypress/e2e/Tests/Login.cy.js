@@ -2,7 +2,7 @@ import { loginPage } from "../../../Pages/LoginPage"
 const loginObj = new loginPage()
 import TestData from '../../fixtures/TestData.json'
 
-describe('PetrusConnectLogin', () => {
+describe('homepageLogin', () => {
     it('Login',()=>{
         loginObj.openURl()
         loginObj.enterUserName(TestData.Name)
